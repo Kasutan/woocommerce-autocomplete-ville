@@ -1,0 +1,26 @@
+.villes {
+	background-color: #fff;
+	border: solid 1px rgb(239, 239, 239);
+	
+	box-shadow: 2px 2px 5px rgb(239, 239, 239);
+	display: block;
+	max-height: 200px;
+	overflow: auto;
+	padding: 10px;
+	position: absolute;
+	top: 45px;
+	width: 100%;
+	z-index: 1;
+}
+.villes label {
+	position: relative !important;
+	width: auto;
+	height: auto;
+	line-height: 3;
+	overflow: auto;
+	clip: auto;
+	display: block;
+}
+.villes	input {
+	display: none;
+}
